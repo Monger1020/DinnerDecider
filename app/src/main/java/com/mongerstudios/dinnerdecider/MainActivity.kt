@@ -1,6 +1,7 @@
 //Date: 1/1/2020
 //Name: MainActivity.kt
 //Info: Simple Kotlin application to pick a random dinner choice for the days you can't pick for yourself.
+//repo created
 
 package com.mongerstudios.dinnerdecider
 
