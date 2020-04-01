@@ -13,12 +13,14 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
 
     //Variable
+    //Array list of food choices.
     val foodList = arrayListOf("Jack in the Box", "KFC","Chicken Express", "Pizza Hut", "In'n'Out","Whataburger","Wendys","Panda Express","Sushi")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //Set on Click Listener for buttons
+        //Set on Click Listener for decide button
         decideButton.setOnClickListener{
             //Random Number and selecting the random food from list, then set the label to the selected food
             val random = Random()
@@ -27,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        //Add Food in TextField to Array, Notify user it was added and clear the textfield
+        //Add Food in TextField to Array, Notify user it was added and clear the textfield.
         addFoodButton.setOnClickListener {
             println("Add Clicked")
             if(addFoodText.text.isNotBlank()){
