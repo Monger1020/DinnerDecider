@@ -1,8 +1,12 @@
+//Date: 1/1/2020
+//Name: MainActivity.kt
+//Info: Simple Kotlin application to pick a random dinner choice for the days you can't pick for yourself.
+
 package com.mongerstudios.dinnerdecider
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
